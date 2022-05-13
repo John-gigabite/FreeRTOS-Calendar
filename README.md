@@ -17,7 +17,8 @@ The following hardware components were used in this project:
 
 The following software components were used in this project:
 1. Arduino IDE
-2. LCD 
+2. FreeRTOS (Available from Arduino)
+3. New-LiquidCrystal-master.zip for LCD functions
 
 ## How it works
 Upon startup, the project will display 12 am on the  LCD screen as the time and will give the user the ability to adjust the hour, then minutes, then am/pm to their time. After setting the time, the program will allow the user to set their desired date by switching between the month, day, then year. Once the date has been set, the program will switch to the Serial Monitor and begin running the seconds starting from 0, going all the way to 59, then changing the necessary hours or minutes and day, month or year.
